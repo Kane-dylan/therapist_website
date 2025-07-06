@@ -5,12 +5,12 @@ const About = () => {
   return (
     <div className="bg-[#fefefe] py-16 px-8 lg:px-16">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col lg:flex-row gap-x-36 items-start mb-20 px-20">
-          <div className=" text-[#7e7e6b] ">
-            <h1 className="text-4xl font-bold mb-8 font-serif">
+        <div className="flex flex-col lg:flex-row gap-x-20 items-start mb-20 px-20">
+          <div className=" text-[#7e7e6b] w-4/3">
+            <h1 className="text-3xl font-semibold mb-8 font-serif">
               About Dr. Serena Blake
             </h1>
-            <div className="text-lg font-extralight font-sans">
+            <div className="text-lg font-light font-sans">
               <p className="mb-5">
                 Finding time and opportunities to care for ourselves can be
                 incredibly challenging in today's busy and demanding world. I
@@ -22,15 +22,7 @@ const About = () => {
                 person to person.
               </p>
               <p className="mb-5">
-                I am dedicated to supporting this journey by offering active
-                listening, psychological knowledge, empathy, compassion, and
-                insights into behavioral patterns and tendencies. I hold a
-                master’s degree in Clinical Psychology from the Michigan School
-                of Psychology (2012) and a Ph.D. in Counseling Psychology from
-                Western Michigan University (2018). My experience spans therapy
-                and psychological assessment in psychiatric inpatient units,
-                academic medical centers, universities, and outpatient practice
-                settings.
+              Dr. Serena Blake is a licensed clinical psychologist (PsyD) based in Los Angeles, CA, with eight years of experience and over 500 client sessions. She blends evidence-based approaches—like cognitive-behavioral therapy and mindfulness—with compassionate, personalized care to help you overcome anxiety, strengthen relationships, and heal from trauma. Whether you meet in her Maplewood Drive office or connect virtually via Zoom, Dr. Blake is committed to creating a safe, supportive space for you to thrive.
               </p>
               <p className="mb-5">
                 My therapeutic approach is primarily psychodynamic and
@@ -43,7 +35,6 @@ const About = () => {
           <div className="flex flex-col-reverse lg:flex-row">
             <img src="/doctor.png" />
           </div>
-          {/* <hr /> */}
         </div>
         <hr />
       </div>

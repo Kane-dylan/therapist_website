@@ -23,23 +23,21 @@ const Hero = () => {
           <div className="relative w-full h-full overflow-hidden">
             <BackgroundVideo />
 
-            {/* Dark overlay for better text readability */}
+            {/* Dark overlay*/}
             <div className="absolute inset-0 bg-black/40"></div>
 
-            {/* Main Content - Removed side padding */}
+            {/* Main Content*/}
             <div className="absolute inset-0 flex items-center justify-center w-full">
               <div className="text-center text-white max-w-6xl w-full">
-                {/* Split heading into two parts as per your HTML structure */}
-                <h1 className="text-center whitespace-pre-wrap text-5xl md:text-6xl lg:text-7xl font-serif mb-4 leading-tight font-bold text-white">
-                  <strong>Psychological Care for</strong>
+                <h1 className="text-center whitespace-pre-wrap text-5xl md:text-6xl lg:text-6xl font-serif mb-4 leading-tight font-semibold  text-white">
+                  Psychological Care for
                 </h1>
 
-                <h1 className="text-center whitespace-pre-wrap text-5xl md:text-6xl lg:text-7xl font-serif mb-8 leading-tight font-bold text-white">
-                  <strong>Change, Insight, and Well-Being</strong>
+                <h1 className="text-center whitespace-pre-wrap text-5xl md:text-4xl lg:text-6xl font-serif mb-8 leading-tight font-semibold text-white">
+                  Change, Insight, and Well-Being
                 </h1>
 
-                {/* Updated paragraph with proper styling */}
-                <h4 className="text-center whitespace-pre-wrap text-xl md:text-2xl lg:text-2xl mb-12 font-light text-white px-4 font-sans">
+                <h4 className="text-center text-xl md:text-2xl lg:text-2xl mb-12 font-light text-white font-sans max-w-full">
                   Offering individual psychotherapy for adults via telehealth in
                   Michigan and{" "}
                   <a

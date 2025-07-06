@@ -6,12 +6,12 @@ const Services = () => {
       {/* Main Content Section */}
       <div className="max-w-7xl mx-auto">
         {/* Top Section */}
-        <div className="text-center mb-16 px-4 lg:px-20">
-          <h1 className="text-2xl lg:text-5xl font-serif text-[#7e7e6b] mb-8 leading-tight max-w-4xl mx-auto">
-            Therapy can be a space where you invest in yourself—one of the
-            highest forms of self-care.
+        <div className="text-center mb-16 px-4 lg:px-20 text-[#41413f]">
+          <h1 className="text-2xl font-light md:text-3xl lg:text-4xl leading-tight mb-8 max-w-6xl mx-auto font-serif">
+            Therapy can be a space where you invest in yourself— <br />
+            one of the highest forms of self-care.
           </h1>
-          <p className="text-lg font-sans text-[#7e7e6b] font-light leading-relaxed max-w-3xl mx-auto">
+          <p className="text-lg font-sans text-[#41413f] font-light leading-relaxed max-w-5xl mx-auto">
             You may be led to therapy by anxiety, depression, relationship
             stress, past or recent trauma, grief and loss, self-esteem issues,
             or challenges with family, parenting, or parental relationships.
@@ -26,7 +26,7 @@ const Services = () => {
 
         {/* Areas of Focus Section */}
         <div className="text-center mb-16">
-          <h2 className="text-xl lg:text-5xl font-serif text-[#7e7e6b] mb-16">
+          <h2 className="text-xl font-light lg:text-4xl font-serif text-[#41413f] mb-16">
             Areas of Focus
           </h2>
 
