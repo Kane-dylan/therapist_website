@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="bg-[#fefefe] py-16 px-8 lg:px-16">
-      <div className="max-w-7xl mx-auto">
+    <div className="bg-[#fefefe]">
+      <div className="max-w-7xl mx-auto mt-20 py-16 px-8 lg:px-16">
         <div className="flex flex-col lg:flex-row gap-x-20 items-start mb-20 px-20">
           <div className=" text-[#7e7e6b] w-4/3">
             <h1 className="text-3xl font-semibold mb-8 font-serif">
@@ -22,7 +22,15 @@ const About = () => {
                 person to person.
               </p>
               <p className="mb-5">
-              Dr. Serena Blake is a licensed clinical psychologist (PsyD) based in Los Angeles, CA, with eight years of experience and over 500 client sessions. She blends evidence-based approaches—like cognitive-behavioral therapy and mindfulness—with compassionate, personalized care to help you overcome anxiety, strengthen relationships, and heal from trauma. Whether you meet in her Maplewood Drive office or connect virtually via Zoom, Dr. Blake is committed to creating a safe, supportive space for you to thrive.
+                Dr. Serena Blake is a licensed clinical psychologist (PsyD)
+                based in Los Angeles, CA, with eight years of experience and
+                over 500 client sessions. She blends evidence-based
+                approaches—like cognitive-behavioral therapy and
+                mindfulness—with compassionate, personalized care to help you
+                overcome anxiety, strengthen relationships, and heal from
+                trauma. Whether you meet in her Maplewood Drive office or
+                connect virtually via Zoom, Dr. Blake is committed to creating a
+                safe, supportive space for you to thrive.
               </p>
               <p className="mb-5">
                 My therapeutic approach is primarily psychodynamic and
@@ -36,7 +44,7 @@ const About = () => {
             <img src="/doctor.png" />
           </div>
         </div>
-        <hr />
+        <div className="border-t border-[#41413f] mb-16 mx-4"></div>
       </div>
     </div>
   );

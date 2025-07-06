@@ -101,10 +101,10 @@ const FAQ = () => {
           alt="Ocean background"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-white/40"></div>
+        <div className="absolute inset-0 bg-white/30"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center w-full">
           <div className="text-center font-serif font-light px-4 lg:px-0">
-            <h1 className="text-2xl md:text-3xl lg:text-4xl leading-tight mb-8 max-w-6xl mx-auto font-serif">
+            <h1 className="text-2xl md:text-3xl lg:text-3xl leading-tight mb-8 max-w-6xl mx-auto font-serif">
               "I have come to believe that caring for myself is not
               self- <br />
               indulgent. Caring for myself is an act of survival."

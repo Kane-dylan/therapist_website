@@ -22,7 +22,7 @@ const Services = () => {
         </div>
 
         {/* Horizontal Line */}
-        <div className="border-t border-[#7e7e6b] mb-16 mx-4 lg:mx-20"></div>
+        <div className="border-t border-[#41413f] mb-16 mx-4 lg:mx-20"></div>
 
         {/* Areas of Focus Section */}
         <div className="text-center mb-16">
@@ -34,69 +34,60 @@ const Services = () => {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 px-4">
             {/* Focus Area 1 */}
             <div className="text-center">
-              <div className="w-64 h-64 mx-auto mb-8 rounded-full overflow-hidden">
+              <div className="w-94 h-94 mx-auto mb-8 rounded-full overflow-hidden">
                 <img
-                  src="/focus1.jpg"
+                  src="https://images.squarespace-cdn.com/content/v1/5cd9be261ca3c20001f5fffc/1646419281523-32A0VLDX5A71V30A7W6A/unsplash-image-bmJAXAz6ads.jpg?format=1500w"
                   alt="Therapy for Healthcare Providers and Students"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-serif text-[#7e7e6b] mb-6 font-bold">
-                Therapy for Healthcare Providers and Students
+              <h3 className="text-xl font-serif text-[#41413f] mb-6">
+                Support for Healthcare Professionals and Students
               </h3>
-              <p className="text-sm font-sans text-[#7e7e6b] font-light leading-relaxed">
-                The care you provide for others may be driving you to seek
-                therapy, whether due to burnout, compassion fatigue, imposter
-                syndrome, people-pleasing tendencies, or perfectionism. Whether
-                you're in pre-professional school, undergoing training, or
-                reflecting on a long career in healthcare, we can address the
-                unique stressors of your professional environment along with any
-                challenges you may be facing in other areas of your life.
+              <p className="text-sm font-sans text-[#41413f] font-light leading-relaxed">
+                Burnout, compassion fatigue, and perfectionism are common
+                challenges for those in healthcare. Therapy provides a space to
+                care for yourself while you care for others, whether you're in
+                training or deep into your career.
               </p>
             </div>
 
             {/* Focus Area 2 */}
             <div className="text-center">
-              <div className="w-64 h-64 mx-auto mb-8 rounded-full overflow-hidden">
+              <div className="w-94 h-94 mx-auto mb-8 rounded-full overflow-hidden">
                 <img
-                  src="/focus2.jpg"
+                  src="https://bayareacbtcenter.com/wp-content/uploads/2024/07/shutterstock_138711269.jpg"
                   alt="Therapy for Trauma and Grief"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-serif text-[#7e7e6b] mb-6 font-bold">
-                Therapy for Trauma and Grief
+              <h3 className="text-xl font-serif text-[#41413f] mb-6">
+                Healing from Trauma and Grief
               </h3>
-              <p className="text-sm font-sans text-[#7e7e6b] font-light leading-relaxed">
-                Life's challenges, whether a difficult childhood, a traumatic
-                event or series of events, or the loss of someone or something
-                deeply meaningful, can lead to profound experiences of trauma
-                and grief. Therapy offers a supportive space to process these
-                experiences, care for yourself amidst painful thoughts and
-                emotions, and work toward a sense of grounding and meaning.
+              <p className="text-sm font-sans text-[#41413f] font-light leading-relaxed">
+                Trauma and loss can leave deep emotional imprints. Therapy
+                offers a compassionate, grounding environment to process these
+                experiences and move toward meaning and healing.
               </p>
             </div>
 
             {/* Focus Area 3 */}
             <div className="text-center">
-              <div className="w-64 h-64 mx-auto mb-8 rounded-full overflow-hidden">
+              <div className="w-94 h-94 mx-auto mb-8 rounded-full overflow-hidden">
                 <img
-                  src="/focus3.jpg"
+                  src="https://static1.squarespace.com/static/656f4e4dababbd7c042c4946/657236350931ee4538eea52c/657236380931ee4538eea912/1709850980508/%28CO%29+self-reflection+1_1.jpg?format=1500w"
                   alt="Therapy for Second Generation Individuals In Immigrant Families"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-serif text-[#7e7e6b] mb-6 font-bold">
-                Therapy for Second Generation Individuals In Immigrant Families
+              <h3 className="text-xl font-serif text-[#41413f] mb-6">
+                Therapy for Second-Generation Individuals
               </h3>
-              <p className="text-sm font-sans text-[#7e7e6b] font-light leading-relaxed">
-                Second-generation individuals in immigrant families, born in the
-                U.S. to at least one parent born abroad, often navigate the
-                complexities of multiple cultures and diverse expectations. This
-                experience can bring challenges such as feeling like a foreigner
-                in your own country and navigating strained family
-                relationships. Therapy offers a supportive space to explore and
-                process this unique aspect of your identity.
+              <p className="text-sm font-sans text-[#41413f] font-light leading-relaxed">
+                Navigating multiple cultures can be complex and emotionally
+                challenging. Therapy provides a space to explore identity,
+                values, and family dynamics unique to second-generation
+                experiences.
               </p>
             </div>
           </div>
@@ -140,7 +131,7 @@ const Services = () => {
       {/* Unable to Accept Clients Section */}
       <div className="bg-[#f3f0e8] py-16 px-8 lg:px-16">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-2xl lg:text-3xl font-serif text-[#7e7e6b] font-normal">
+          <h1 className="text-2xl lg:text-2xl font-serif text-[#41413f] font-normal">
             Unable to accept new clients at this time.
           </h1>
         </div>
