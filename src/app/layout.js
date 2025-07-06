@@ -1,14 +1,14 @@
 import "./globals.css";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Source_Serif_4, Source_Sans_3 } from "next/font/google";
 
-const inter = Inter({
+const sourceSerif = Source_Serif_4({
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-source-serif",
 });
 
-const playfair = Playfair_Display({
+const sourceSans = Source_Sans_3({
   subsets: ["latin"],
-  variable: "--font-playfair",
+  variable: "--font-source-sans",
 });
 
 export const metadata = {
@@ -23,7 +23,9 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href="/logo.png" />
       </head>
-      <body className={`${inter.variable} ${playfair.variable} antialiased`}>
+      <body
+        className={`${sourceSerif.variable} ${sourceSans.variable} antialiased`}
+      >
         {children}
       </body>
     </html>

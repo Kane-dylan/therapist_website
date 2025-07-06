@@ -2,8 +2,8 @@
 
 @layer base {
   :root {
-    --font-inter: 'Inter', sans-serif;
-    --font-playfair: 'Playfair Display', serif;
+    --font-source-serif: "Source Serif 4", serif;
+    --font-source-sans: "Source Sans 3", sans-serif;
   }
 }
 
@@ -12,7 +12,11 @@ body {
 }
 
 .font-serif {
-  font-family: var(--font-playfair);
+  font-family: var(--font-source-serif);
+}
+
+.font-sans {
+  font-family: var(--font-source-sans);
 }
 
 /* Background Video Styles */

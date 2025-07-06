@@ -39,7 +39,7 @@ const Hero = () => {
                 </h1>
 
                 {/* Updated paragraph with proper styling */}
-                <h4 className="text-center whitespace-pre-wrap text-xl md:text-2xl lg:text-2xl mb-12 font-light text-white px-4">
+                <h4 className="text-center whitespace-pre-wrap text-xl md:text-2xl lg:text-2xl mb-12 font-light text-white px-4 font-sans">
                   Offering individual psychotherapy for adults via telehealth in
                   Michigan and{" "}
                   <a

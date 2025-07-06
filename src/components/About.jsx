@@ -7,8 +7,10 @@ const About = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row gap-x-36 items-start mb-20 px-20">
           <div className=" text-[#7e7e6b] ">
-            <h1 className="text-4xl font-bold mb-8">About Dr. Jennifer Hahm</h1>
-            <div className="text-lg font-extralight">
+            <h1 className="text-4xl font-bold mb-8 font-serif">
+              About Dr. Serena Blake
+            </h1>
+            <div className="text-lg font-extralight font-sans">
               <p className="mb-5">
                 Finding time and opportunities to care for ourselves can be
                 incredibly challenging in today's busy and demanding world. I
@@ -39,7 +41,7 @@ const About = () => {
             </div>
           </div>
           <div className="flex flex-col-reverse lg:flex-row">
-            <img src="/doctor.jpg" />
+            <img src="/doctor.png" />
           </div>
           {/* <hr /> */}
         </div>
