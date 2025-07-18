@@ -5,7 +5,7 @@ import BackgroundVideo from "./BackgroundVideo";
 const Hero = () => {
   return (
     <div className="min-h-screen">
-      {/* Logo Section - Responsive padding and logo sizing */}
+      {/* Logo Section */}
       <div className="bg-[#f3f0e8] py-4 px-4 sm:py-6 sm:px-8 md:py-8 md:px-14">
         <Image
           src="/logo.png"
@@ -16,17 +16,16 @@ const Hero = () => {
         />
       </div>
 
-      {/* Video Section with responsive padding */}
-      <div className="bg-[#f3f0e8] p-2 sm:p-4 md:p-8 lg:p-12 xl:p-16 pt-0">
+      {/* Video Section */}
+      <div className="bg-[#f3f0e8] p-2 sm:p-2 md:p-6 lg:p-10 xl:p-16 pt-0">
         <div className="relative w-full aspect-[3/4] sm:aspect-[4/3] md:aspect-[1/1] lg:aspect-video">
-          {/* Background Video*/}
           <div className="relative w-full h-full overflow-hidden">
             <BackgroundVideo />
 
             {/* Dark overlay*/}
             <div className="absolute inset-0 bg-black/40"></div>
 
-            {/* Main Content - Responsive typography and spacing */}
+            {/* Main Content */}
             <div className="absolute inset-0 flex items-center justify-center w-full px-4 sm:px-6 md:px-8">
               <div className="text-center text-white max-w-6xl w-full">
                 <h1 className="text-center whitespace-pre-wrap text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif mb-2 sm:mb-3 md:mb-4 leading-tight font-semibold text-white">
@@ -51,7 +50,7 @@ const Hero = () => {
                   through PSYPACT participation
                 </h4>
 
-                {/* Responsive CTA Button - improved mobile sizing */}
+                {/* CTA Button */}
                 <a
                   href="https://docs.google.com/forms/d/e/1FAIpQLSeVPdE8FDjGrnmAJ8kAXzXUTrOz780udwG6noNWHbShZuuIgw/viewform"
                   target="_blank"

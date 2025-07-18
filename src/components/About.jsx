@@ -5,14 +5,11 @@ const About = () => {
   return (
     <div className="bg-[#fefefe]">
       <div className="max-w-7xl mx-auto mt-10 sm:mt-16 md:mt-20 py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 lg:px-16">
-        {/* Responsive flex layout with improved spacing and image sizing */}
         <div className="flex flex-col lg:flex-row gap-6 sm:gap-8 md:gap-12 lg:gap-20 items-start mb-12 sm:mb-16 md:mb-20 px-0 sm:px-4 md:px-8 lg:px-20">
           <div className="text-[#7e7e6b] w-full lg:w-3/5">
-            {/* Responsive heading sizing */}
             <h1 className="text-2xl sm:text-3xl md:text-3xl font-semibold mb-4 sm:mb-6 md:mb-8 font-serif">
               About Dr. Serena Blake
             </h1>
-            {/* Responsive text sizing and spacing */}
             <div className="text-base sm:text-lg font-light font-sans">
               <p className="mb-4 sm:mb-5 leading-relaxed">
                 Finding time and opportunities to care for ourselves can be
@@ -43,7 +40,6 @@ const About = () => {
               </p>
             </div>
           </div>
-          {/* Responsive image container with proper mobile scaling */}
           <div className="flex flex-col-reverse lg:flex-row w-full lg:w-2/5">
             <img
               src="/doctor.png"
@@ -52,7 +48,6 @@ const About = () => {
             />
           </div>
         </div>
-        {/* Responsive border with proper margins */}
         <div className="border-t border-[#41413f] mb-8 sm:mb-12 md:mb-16 mx-0 sm:mx-2 md:mx-4"></div>
       </div>
     </div>

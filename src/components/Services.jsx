@@ -5,7 +5,6 @@ const Services = () => {
     <div className="bg-[#f3f0e8] py-8 sm:py-12 md:py-16">
       {/* Main Content Section */}
       <div className="max-w-7xl mx-auto">
-        {/* Top Section - Responsive padding and typography */}
         <div className="text-center mb-8 sm:mb-12 md:mb-16 px-4 sm:px-6 md:px-8 lg:px-20 text-[#41413f]">
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight mb-4 sm:mb-6 md:mb-8 max-w-6xl mx-auto font-serif">
             Therapy can be a space where you invest in yourself—{" "}
@@ -22,7 +21,7 @@ const Services = () => {
           </p>
         </div>
 
-        {/* Responsive Horizontal Line */}
+        {/* Horizontal Line */}
         <div className="border-t border-[#41413f] mb-8 sm:mb-12 md:mb-16 mx-4 sm:mx-8 md:mx-12 lg:mx-20"></div>
 
         {/* Areas of Focus Section */}
@@ -31,11 +30,9 @@ const Services = () => {
             Areas of Focus
           </h2>
 
-          {/* Responsive Grid - stacks on mobile, 2 cols on tablet, 3 cols on desktop */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 md:gap-10 lg:gap-12 px-4 sm:px-6 md:px-8">
             {/* Focus Area 1 */}
             <div className="text-center">
-              {/* Responsive image sizing */}
               <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-94 lg:h-94 mx-auto mb-4 sm:mb-6 md:mb-8 rounded-full overflow-hidden">
                 <img
                   src="https://images.squarespace-cdn.com/content/v1/5cd9be261ca3c20001f5fffc/1646419281523-32A0VLDX5A71V30A7W6A/unsplash-image-bmJAXAz6ads.jpg?format=1500w"
@@ -96,7 +93,7 @@ const Services = () => {
         </div>
       </div>
 
-      {/* Rates and Insurance Section - Responsive padding and typography */}
+      {/* Rates and Insurance Section */}
       <div className="bg-[#9AB1B0] py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 lg:px-16">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif text-[#2c2c2c] mb-6 sm:mb-8 md:mb-12 font-normal">
@@ -132,7 +129,7 @@ const Services = () => {
         </div>
       </div>
 
-      {/* Unable to Accept Clients Section - Responsive typography */}
+      {/* Unable to Accept Clients Section */}
       <div className="bg-[#f3f0e8] py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 lg:px-16">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-lg sm:text-xl md:text-2xl font-serif text-[#41413f] font-normal">

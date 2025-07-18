@@ -63,11 +63,9 @@ const FAQ = () => {
                   onClick={() => toggleItem(item.id)}
                   className="w-full text-left py-4 sm:py-5 md:py-6 flex justify-between items-center hover:bg-[#a5cfd3]/50 transition-colors duration-200 px-2 sm:px-3 md:px-4 rounded-t-lg"
                 >
-                  {/* Responsive question text */}
                   <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-sans text-[#4a5a5b] font-medium pr-3 sm:pr-4">
                     {item.question}
                   </h3>
-                  {/* Responsive icon */}
                   <svg
                     className={`w-5 h-5 sm:w-6 sm:h-6 text-[#4a5a5b] transition-transform duration-200 flex-shrink-0 ${
                       openItems[item.id] ? "transform rotate-180" : ""

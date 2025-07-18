@@ -7,18 +7,14 @@ const BackgroundVideo = () => {
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    // Set client-side flag to avoid hydration mismatch
     setIsClient(true);
 
-    // Ensure video plays correctly after hydration
     if (videoRef.current) {
       videoRef.current.play().catch(() => {
-        // Silently handle autoplay restrictions
       });
     }
   }, []);
 
-  // Show a placeholder during SSR to avoid hydration mismatch
   if (!isClient) {
     return (
       <div className="relative inset-0 w-full h-full overflow-hidden bg-gray-200">

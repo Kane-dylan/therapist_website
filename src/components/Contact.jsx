@@ -17,7 +17,6 @@ const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   useEffect(() => {
-    // Set client-side flag to avoid hydration mismatch
     setIsClient(true);
   }, []);
 
@@ -73,7 +72,6 @@ const Contact = () => {
       [name]: type === "checkbox" ? checked : value,
     }));
 
-    // Clear error when user starts typing
     if (errors[name]) {
       setErrors((prev) => ({
         ...prev,
@@ -92,10 +90,8 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      // Simulate form submission
       await new Promise((resolve) => setTimeout(resolve, 1000));
 
-      // Reset form on success
       setFormData({
         name: "",
         phone: "",
@@ -116,12 +112,9 @@ const Contact = () => {
   return (
     <div className="bg-[#f3f0e8] py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8">
       <div className="max-w-6xl mx-auto">
-        {/* Responsive flex layout with better mobile stacking */}
         <div className="flex flex-col lg:flex-row gap-6 sm:gap-8 md:gap-10 lg:gap-12">
-          {/* Left Column: Contact Details - Responsive spacing */}
           <div className="w-full lg:w-1/2 mb-6 sm:mb-8 lg:mb-0">
             <div className="p-4 sm:p-6 md:p-8 h-full">
-              {/* Responsive heading */}
               <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#4a5a5b] mb-4 sm:mb-6">
                 Contact Information
               </h2>
@@ -212,7 +205,6 @@ const Contact = () => {
           {/* Right Column: Contact Form - Responsive form styling */}
           <div className="w-full lg:w-1/2 h-auto">
             <div className="bg-white rounded-lg border border-[#4a5a5b]/20 p-4 sm:p-6 md:p-8 shadow-sm">
-              {/* Responsive form heading */}
               <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif text-[#4a5a5b] mb-3 sm:mb-4 text-center font-bold">
                 Get In Touch
               </h1>
@@ -223,7 +215,6 @@ const Contact = () => {
                 is safe, private, and completely free.
               </p>
 
-              {/* Show loading placeholder during SSR to avoid hydration mismatch */}
               {!isClient ? (
                 <div className="space-y-4 sm:space-y-5">
                   <div className="animate-pulse">
@@ -381,7 +372,7 @@ const Contact = () => {
                     )}
                   </div>
 
-                  {/* Agree to Contact Checkbox - Better mobile layout */}
+                  {/* Agree to Contact Checkbox */}
                   <div className="flex items-start space-x-2 sm:space-x-3">
                     <input
                       type="checkbox"
@@ -405,7 +396,7 @@ const Contact = () => {
                     </p>
                   )}
 
-                  {/* Submit Button - Responsive sizing */}
+                  {/* Submit Button */}
                   <button
                     type="submit"
                     disabled={isSubmitting}
@@ -418,7 +409,7 @@ const Contact = () => {
                     {isSubmitting ? "Submitting..." : "Submit"}
                   </button>
 
-                  {/* Privacy Notice - Responsive text */}
+                  {/* Privacy Notice */}
                   <div className="flex items-start space-x-2 pt-2 sm:pt-4">
                     <svg
                       className="w-4 h-4 sm:w-5 sm:h-5 text-[#4a5a5b] mt-0.5 flex-shrink-0"

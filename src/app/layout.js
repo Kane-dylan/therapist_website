@@ -12,7 +12,7 @@ const sourceSans = Source_Sans_3({
 });
 
 export const metadata = {
-  title: "Jennifer Hahm, Ph.D. - Psychological Services",
+  title: "Dr. Serena Blake, Ph.D. - Clinical Psychologist",
   description:
     "Professional therapy services - Individual psychotherapy for adults via telehealth",
 };
