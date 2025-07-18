@@ -33,7 +33,7 @@ const Services = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 md:gap-10 lg:gap-12 px-4 sm:px-6 md:px-8">
             {/* Focus Area 1 */}
             <div className="text-center">
-              <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-94 lg:h-94 mx-auto mb-4 sm:mb-6 md:mb-8 rounded-full overflow-hidden">
+              <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-64 lg:h-64 xl:w-94 xl:h-94 mx-auto mb-4 sm:mb-6 md:mb-8 rounded-full overflow-hidden">
                 <img
                   src="https://images.squarespace-cdn.com/content/v1/5cd9be261ca3c20001f5fffc/1646419281523-32A0VLDX5A71V30A7W6A/unsplash-image-bmJAXAz6ads.jpg?format=1500w"
                   alt="Therapy for Healthcare Providers and Students"
@@ -53,7 +53,7 @@ const Services = () => {
 
             {/* Focus Area 2 */}
             <div className="text-center">
-              <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-94 lg:h-94 mx-auto mb-4 sm:mb-6 md:mb-8 rounded-full overflow-hidden">
+              <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-64 lg:h-64 xl:w-94 xl:h-94 mx-auto mb-4 sm:mb-6 md:mb-8 rounded-full overflow-hidden">
                 <img
                   src="https://bayareacbtcenter.com/wp-content/uploads/2024/07/shutterstock_138711269.jpg"
                   alt="Therapy for Trauma and Grief"
@@ -72,7 +72,7 @@ const Services = () => {
 
             {/* Focus Area 3 */}
             <div className="text-center md:col-span-2 lg:col-span-1 md:mx-auto lg:mx-0 md:max-w-sm lg:max-w-none">
-              <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-94 lg:h-94 mx-auto mb-4 sm:mb-6 md:mb-8 rounded-full overflow-hidden">
+              <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-64 lg:h-64 xl:w-94 xl:h-94 mx-auto mb-4 sm:mb-6 md:mb-8 rounded-full overflow-hidden">
                 <img
                   src="https://static1.squarespace.com/static/656f4e4dababbd7c042c4946/657236350931ee4538eea52c/657236380931ee4538eea912/1709850980508/%28CO%29+self-reflection+1_1.jpg?format=1500w"
                   alt="Therapy for Second Generation Individuals In Immigrant Families"
