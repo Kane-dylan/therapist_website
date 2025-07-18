@@ -1,6 +1,8 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
+import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 
 const Contact = () => {
   const [isClient, setIsClient] = useState(false);
@@ -114,10 +116,25 @@ const Contact = () => {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col lg:flex-row gap-6 sm:gap-8 md:gap-10 lg:gap-12">
           <div className="w-full lg:w-1/2 mb-6 sm:mb-8 lg:mb-0">
+            <div className="px-4">
+              <Image
+                src="/logo.png"
+                alt="logo"
+                width={280}
+                height={100}
+                className="flex bg-[#f3f0e8] p-2 sm:p-4 border border-none w-auto h-auto max-w-[200px] sm:max-w-[240px] md:max-w-[280px]"
+              />
+            </div>
             <div className="p-4 sm:p-6 md:p-8 h-full">
-              <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#4a5a5b] mb-4 sm:mb-6">
-                Contact Information
-              </h2>
+              <div className="flex gap-5 mb-4 items-center">
+                <Avatar>
+                  <AvatarImage src="/doctor.png" />
+                  <AvatarFallback>DR.</AvatarFallback>
+                </Avatar>
+                <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#4a5a5b] mb-4 sm:mb-6">
+                  Contact Information
+                </h2>
+              </div>
 
               <div className="space-y-3 sm:space-y-4 text-[#4a5a5b]">
                 <div>
